@@ -102,6 +102,7 @@
 				E410283C1E0E14B300B801DB /* AppDelegate.swift */,
 				E410283E1E0E14B300B801DB /* ViewController.swift */,
 				E41028401E0E14B300B801DB /* Main.storyboard */,
+				E410286A1E0E5C8C00B801DB /* CalculatorBrain.swift */,
 				E41028431E0E14B300B801DB /* Assets.xcassets */,
 				E41028451E0E14B300B801DB /* LaunchScreen.storyboard */,
 				E41028481E0E14B300B801DB /* Info.plist */,
@@ -123,7 +124,6 @@
 			children = (
 				E410285C1E0E14B300B801DB /* CalculatorUITests.swift */,
 				E410285E1E0E14B300B801DB /* Info.plist */,
-				E410286A1E0E5C8C00B801DB /* CalculatorBrain.swift */,
 			);
 			path = CalculatorUITests;
 			sourceTree = "<group>";
@@ -425,6 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RehanAshraf.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -438,6 +439,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RehanAshraf.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +520,7 @@
 				E41028631E0E14B300B801DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41028641E0E14B300B801DB /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +529,7 @@
 				E41028661E0E14B300B801DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E41028671E0E14B300B801DB /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +538,7 @@
 				E41028691E0E14B300B801DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
